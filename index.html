@@ -1,505 +1,555 @@
 <!doctype html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <link rel="icon" href="favicon.ico">
-      <title>XeroxC</title>
-      <!-- Bootstrap core CSS -->
-      <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-      <!-- Custom styles for this template -->
-      <link href="starter-template.css" rel="stylesheet">
-      <link href="product.css" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-      <!------ Include the above in your HEAD tag ---------->
-      <style>
-         @import url('https://fonts.googleapis.com/css?family=Roboto');
-         #contact-us{
-         margin:0;
-         padding:0;
-         font-family:sans-serif;
-         background:#002b38;
-         }
-         .box-container {
-         width:900px;
-         margin:45px auto;
-         display:flex;
-         }
-         .box-container .box {
-         position:relative;
-         width: 300px;
-         height:100px;
-         box-sizing:border-box;
-         text-align:center;
-         margin:0 10px;
-         background:#00171d;
-         overflow:hidden;
-         border-radius:4px;
-         box-shadow:0 0 0 2px rgba(0,7,10,1);
-         }
-         .box-container .box .icon {
-         width:100%;
-         height:100%;
-         background: #69579a;/*#00171d;*/
-         transition: 0.5s;
-         }
-         .box-container .box .icon .fa {
-         font-size: 4em;
-         line-height:100px;
-         color: #0ff;
-         }
-         .box-container .box:hover .icon {
-         transform:scale(0);
-         }
-         .box-container .box .details {
-         position:absolute;
-         top:0;
-         left:0;
-         width:100%;
-         height:100%;
-         background:#03a9f4;
-         transition:0.5s;
-         transform:scale(2);
-         opacity:0;
-         }
-         .box-container .box:hover .details {
-         transform:scale(1);
-         opacity:1;
-         }
-         .box-container .box .details h3 {
-         margin:0;
-         padding:0;
-         line-height:100px;
-         font-size:24px;
-         color:#fff;
-         }
-         .box-container .box .details:nth-child(2) .details {
-         background:#e91e63;
-         }
-         .box-container .box .details:nth-child(2) .details {
-         background:#607d8b;
-         }
-         .listPrinting .nav-item
-         {
-         text-align:left !important;
-         }
-         .nav-item :
-         {
-         text-align:left !important;
-         }
-         font-family: 'Roboto', sans-serif;
-         body {
-         background: #D9B280;
-         font-family: "Roboto", sans-serif;
-         }
-         .contact-us-container {
-         background: #FFFFFF;
-         
-		 }
-         .contact-us-container .contact-form {
-         float: left;
-         }
-         .contact-us-container .contact-form .title {
-    font-size: 2.5em;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    color: #242424;
-    margin: 8% 0% 4% 0%;
-        margin-top: 8%;
-}
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Asonv Technology</title>
+    <link rel="icon" href="Asonv-Tech-Logo.jpg">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/bootstrap-reboot.css" rel="stylesheet">
+    <link href="dist/css/bootstrap-reboot.min.css" rel="stylesheet">
+    <link href="dist/css/bootstrap-grid.css" rel="stylesheet">
+    <link href="dist/css/bootstrap-grid.min.css" rel="stylesheet">
+
+    <link href="starter-template.css" rel="stylesheet">
+    <link href="product.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto');
+        #contact-us {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background: #002b38;
+        }
+        
+        .box-container {
+            width: 900px;
+            margin: 45px auto;
+            display: flex;
+        }
+        
+        .box-container .box {
+            position: relative;
+            width: 300px;
+            height: 100px;
+            box-sizing: border-box;
+            text-align: center;
+            margin: 0 10px;
+            background: #00171d;
+            overflow: hidden;
+            border-radius: 4px;
+            box-shadow: 0 0 0 2px rgba(0, 7, 10, 1);
+        }
+        
+        .box-container .box .icon {
+            width: 100%;
+            height: 100%;
+            background: #01b7d4;
+            /*#00171d;*/
+            transition: 0.5s;
+        }
+        
+        .box-container .box .icon .fa {
+            font-size: 4em;
+            line-height: 100px;
+            color: #0ff;
+        }
+        
+        .box-container .box:hover .icon {
+            transform: scale(0);
+        }
+        
+        .box-container .box .details {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #03a9f4;
+            transition: 0.5s;
+            transform: scale(2);
+            opacity: 0;
+        }
+        
+        .box-container .box:hover .details {
+            transform: scale(1);
+            opacity: 1;
+        }
+        
+        .box-container .box .details h3 {
+            margin: 0;
+            padding: 0;
+            line-height: 100px;
+            font-size: 24px;
+            color: #fff;
+        }
+        
+        .box-container .box .details:nth-child(2) .details {
+            background: #e91e63;
+        }
+        
+        .box-container .box .details:nth-child(2) .details {
+            background: #607d8b;
+        }
+        
+        .listPrinting .nav-item {
+            text-align: left !important;
+        }
+        
+        .nav-item {
+            text-align: left !important;
+        }
+        
+        body {
+            font-family: "Roboto", sans-serif;
+        }
+        
+        .contact-us-container {
+            background: #FFFFFF;
+        }
+        
+        .contact-us-container .contact-form {
+            float: left;
+        }
+        
+        .contact-us-container .contact-form .title {
+            font-size: 2.5em;
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            color: #242424;
+            margin: 8% 0% 4% 0%;
+            margin-top: 8%;
+        }
+        
         .contact-us-container .contact-form .subtitle {
-    font-size: 1.2em;
-    font-weight: 400;
-    margin: 2% 0%;
-}
-        .contact-us-container .contact-form input, .contact-us-container .contact-form textarea {
-    width: 100%;
-    padding: 3%;
-    margin: 2% 0%;
-    color: #242424;
-    border: 1px solid #B7B7B7;
-}
-         .contact-us-container .contact-form input::placeholder,
-         .contact-us-container .contact-form textarea::placeholder {
-         color: #242424;
-         }
-         .contact-us-container .contact-form .btn-send {
-         background: #A383C9;
-         width: 180px;
-         height: 60px;
-         color: #FFFFFF;
-         font-weight: 700;
-         margin: 0%;
-         border: none;
-         }
-		 
-		 .special_description_content > h2 {
-    color: #5b32b4;
-    font-size: 48px;
-    margin-bottom: 30px;
-}
-
-.section_padding_100 {
-    padding-top: 100px;
-    padding-bottom: 0px;
-}
-
-.section-heading > h2 {
-    font-weight: 300;
-    color: #5b32b4;
-    font-size: 48px;
-    margin: 0;
-}
-
-.line-shape-white, .line-shape {
-    width: 80px;
-    height: 2px;
-    background-color: #fb397d;
-    margin-top: 15px;
-}
-
-.line-shape {
-    margin-left: calc(50% - 40px);
-}
-
-.single-special {
-    border: 1px solid #eff2f6;
-    padding: 40px;
-    border-radius: 40px 40px 40px 0px;
-    -webkit-transition-duration: 800ms;
-    -o-transition-duration: 800ms;
-    transition-duration: 800ms;
-    margin-bottom: 30px;
-}
-
-.single-icon > i {
-    font-size: 36px;
-    color: #fb397d;
-}
-
-[class^="ti-"], [class*=" ti-"] {
-    font-family: 'themify';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-.ti-mobile:before {
-    /*content: "\e621";*/
-}
-
- 
-		 @media only screen and (max-width: 942px){
-		   #home-left{
-		  margin-left:0px !important;
-		  }
-		  
-		  .box-container {
-           width:100%;
-         }
-		 }
-      </style>
-   </head>
-   <style>
-   </style>
-   <body id="top">
-      <nav id="nav" class="navbar navbar-expand-md navbar-dark bg-dark align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow fixed-top">
-       
-	     <a class="navbar-brand" href="#" style=" display: flex; ">
-		    <div>
-				<img src="Asonv-Tech-Logo.jpg" alt="" style="width: 73px;height: 60px;padding-left: 10px;"> 
-			</div>
-		    <div style="padding-left: 11px;">
-				<label style="line-height: 26.5px;">
-				    <span style="color: #00b9d7;font-weight: bold;">Asonv Tech</span>
-					<br>
-					<span style="color: #0078b3;">Where Innovation Matters</span>
-				</label>
-			</div>
-		 </a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" style="background:#69579a">
-         <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
-               <li class="nav-item active">
-                  <a class="nav-link" href="#body">Home <span class="sr-only">(current)</span></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#about-us">About</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#services">Services</a>
-               </li>
-			   <li class="nav-item">
-                  <a class="nav-link" href="payment.html">Payment</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#Contact-us">Contact Us</a>
-               </li>
-            </ul>
-         </div>
-      </nav>
-      <main role="main">
-         <div id="home" class="position-relative overflow-hidden text-center bg-light" style="margin: 0 !important;background: white !important;padding-bottom:0px">
-            <!-- <div id="home-left"class="col-md-5 p-lg-5" style="margin-left: 60px"> -->
-               <!-- <h1 class="display-4 font-weight-normal">XeroxC</h1> -->
-               <!-- <p class="lead font-weight-normal">Your printed document are just one click away.</p> -->
-               <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
-			<!-- </div> -->
-			<!-- <div class="product-device d-none d-md-block" style="background-image: url('banner1.svg');background-repeat: no-repeat;background-size: contain;"> -->
-			<!-- </div> -->
-         </div>
-         <div class="container" style="padding: 10px;">
-		 <div class="row" style="margin: 0">
-			<div class="col-lg-12">
+            font-size: 1.2em;
+            font-weight: 400;
+            margin: 2% 0%;
+        }
+        
+        .contact-us-container .contact-form input,
+        .contact-us-container .contact-form textarea {
+            width: 100%;
+            padding: 3%;
+            margin: 2% 0%;
+            color: #242424;
+            border: 1px solid #B7B7B7;
+        }
+        
+        .contact-us-container .contact-form input::placeholder,
+        .contact-us-container .contact-form textarea::placeholder {
+            color: #242424;
+        }
+        
+        .contact-us-container .contact-form .btn-send {
+            background: #A383C9;
+            width: 180px;
+            height: 60px;
+            color: #FFFFFF;
+            font-weight: 700;
+            margin: 0%;
+            border: none;
+        }
+        
+        .special_description_content>h2 {
+            color: #5b32b4;
+            /*
+			font-size: 48px;
+            margin-bottom: 30px;
+			*/
+        }
+        
+        .section_padding_100 {
+            padding-top: 100px;
+            padding-bottom: 0px;
+        }
+        
+        .section-heading>h2 {
+            font-weight: 300;
+            color: #5b32b4;
+            font-size: 48px;
+            margin: 0;
+        }
+        
+        .line-shape-white,
+        .line-shape {
+            width: 80px;
+            height: 2px;
+            background-color: #fb397d;
+            margin-top: 15px;
+        }
+        
+        .line-shape {
+            margin-left: calc(50% - 40px);
+        }
+        
+        .single-special {
+            border: 1px solid #eff2f6;
+            padding: 40px;
+            border-radius: 40px 40px 40px 0px;
+            -webkit-transition-duration: 800ms;
+            -o-transition-duration: 800ms;
+            transition-duration: 800ms;
+            margin-bottom: 30px;
+        }
+        
+        .single-icon>i {
+            font-size: 36px;
+            color: #fb397d;
+        }
+        
+        [class^="ti-"],
+        [class*=" ti-"] {
+            font-family: 'themify';
+            speak-as: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        .ti-mobile:before {
+            /*content: "\e621";*/
+        }
+		
+		#img-logo{
+				width: 73px;
+				height: 60px;
+				padding-left: 10px;
+		}
+        
+        @media only screen and (max-width: 942px) {
+            #home-left {
+                margin-left: 0px !important;
+            }
+            .box-container {
+                width: 100%;
+            }
+			
+			.special_description_content h2{
+			    text-align: center;
+			}
+        }
+		
+		@media only screen and (max-width: 991px) {
+           .special_description_content h2{
+			    text-align: center;
+			}
+        }
+		
+        
+        @media only screen and (max-width: 438px) {
+		  #img-logo{
+				width: 58px;
+                height: 43px;
+				}
 				
-			</div> 
-		</div>
-		</div>
-		 
-		 
-		 <!-- ***** Special Area Start ***** -->
-    <section class="special-area bg-white section_padding_100" id="about-us">
-		<div class="special_description_area mt-150">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6" style="text-align: center;">
-                        <div class="special_description_img">
-                            <img src="Asonv-Tech-Logo.jpg" alt="" style="width: 50%;">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-5 mr-xl-auto">
-                        <div class="special_description_content">
-                            <h2>About us</h2>
-                            <p>At Asonv-Tech, we believe that a plan is a powerful tool. Reaching your daily workflow objectives hinges on having the right plan -- one that fits your unique circumstances and grows with you. Planning your future can be a daunting task. That's where Asonv-Tech comes in. We're trained, experienced professionals, and we can draw on years of technical experience when creating a long-term strategy. In the daily growth of technologies and advancement in tech, we can help you.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>   
-   <div class="container" style="padding-top: 35px;">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Section Heading Area -->
-                    <div class="section-heading text-center">
-                        <h2>Why is it special</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                </div>
-            </div>
+            #header-title {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<style>
 
-            <div class="row" style="padding-top: 30px;">
-                <!-- Single Special Area -->
-                <div class="col-12 col-md-4">
-                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="single-icon">
-                            <i class="ti-mobile" aria-hidden="true"></i>
-                        </div>
-                        <h4>Delivery</h4>
-                        <p>Get free delivery for college student.</p>
-                    </div>
-                </div>
-                <!-- Single Special Area -->
-                <div class="col-12 col-md-4">
-                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="single-icon">
-                            <i class="ti-ruler-pencil" aria-hidden="true"></i>
-                        </div>
-                        <h4>Quality</h4>
-                        <p>Get quality printout of your document.</p>
-                    </div>
-                </div>
-                <!-- Single Special Area -->
-                <div class="col-12 col-md-4">
-                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="single-icon">
-                            <i class="ti-settings" aria-hidden="true"></i>
-                        </div>
-                        <h4>Secure and safe</h4>
-                        <p>Your personal document are not shared with other. </p>
-                    </div>
+</style>
+
+<body id="top">
+    <nav id="nav" class="navbar navbar-expand-md navbar-dark bg-dark align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow fixed-top">
+
+        <a class="navbar-brand" href="#" style=" display: flex; ">
+            <div>
+                <img src="Asonv-Tech-Logo.jpg" alt="" id="img-logo">
+            </div>
+            <div style="padding-left: 11px;margin-left: 0px" class="row" id="header-title">
+                <label style="line-height: 26.5px;" class="col-sm-12 hidden-sm-12">
+                    <span style="color: #00b9d7;font-weight: bold;">Asonv Tech</span>
+                    <br>
+                    <span style="color: #0078b3;">Where Innovation Matters</span>
+                </label>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" style="background:#01b7d4">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#body">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-us">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="payment.html">Payment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact-us">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main role="main">
+        <div id="home" class="position-relative overflow-hidden text-center bg-light" style="margin: 0 !important;background: white !important;padding-bottom:0px">
+            <!-- <div id="home-left"class="col-md-5 p-lg-5" style="margin-left: 60px"> -->
+            <!-- <h1 class="display-4 font-weight-normal">XeroxC</h1> -->
+            <!-- <p class="lead font-weight-normal">Your printed document are just one click away.</p> -->
+            <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+            <!-- </div> -->
+            <!-- <div class="product-device d-none d-md-block" style="background-image: url('banner1.svg');background-repeat: no-repeat;background-size: contain;"> -->
+            <!-- </div> -->
+        </div>
+		
+		<!-- ** *** -->
+        <div class="container" style="padding: 10px;">
+            <div class="row" style="margin: 0">
+                <div class="col-lg-12">
+
                 </div>
             </div>
         </div>
-    </section>
-    <!-- ***** Special Area End ***** -->
-		 
-		 <div id="services" class="row" style="margin: 0;">
-            <div class="col-md-12" style="padding-top: 82px;padding-bottom: 30px;margin-top: 20px;">
-			   <div class="section-heading text-center">
-                        <h2>Services</h2>
-                        <div class="line-shape"></div>
+		<!-- ** *** -->
+
+        <!-- ***** Special Area Start ***** -->
+        <section class="special-area bg-white section_padding_100" id="about-us">
+            <div class="special_description_area mt-150">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6" style="text-align: center;">
+                            <div class="special_description_img">
+                                <img src="Asonv-Tech-Logo1.jpg" alt="" style="width: 50%;">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-5 mr-xl-auto">
+                            <div class="special_description_content">
+                                <h2>About us</h2>
+                                <p>At Asonv-Tech, we believe that a plan is a powerful tool. Reaching your daily workflow objectives hinges on having the right plan -- one that fits your unique circumstances and grows with you. Planning your future can be
+                                    a daunting task. That's where Asonv-Tech comes in. We're trained, experienced professionals, and we can draw on years of technical experience when creating a long-term strategy. In the daily growth of technologies and
+                                    advancement in tech, we can help you.</p>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>
+            <div class="container" style="padding-top: 35px;">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Section Heading Area -->
+                        <div class="section-heading text-center">
+                            <h2>Why is it special</h2>
+                            <div class="line-shape"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-top: 30px;">
+                    <!-- Single Special Area -->
+                    <div class="col-12 col-md-4">
+                        <div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="single-icon">
+                                <i class="ti-mobile" aria-hidden="true"></i>
+                            </div>
+                            <h4>Delivery</h4>
+                            <p>Get free delivery for college student.</p>
+                        </div>
+                    </div>
+                    <!-- Single Special Area -->
+                    <div class="col-12 col-md-4">
+                        <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="single-icon">
+                                <i class="ti-ruler-pencil" aria-hidden="true"></i>
+                            </div>
+                            <h4>Quality</h4>
+                            <p>Get quality printout of your document.</p>
+                        </div>
+                    </div>
+                    <!-- Single Special Area -->
+                    <div class="col-12 col-md-4">
+                        <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="single-icon">
+                                <i class="ti-settings" aria-hidden="true"></i>
+                            </div>
+                            <h4>Secure and safe</h4>
+                            <p>Your personal document are not shared with other. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Special Area End ***** -->
+
+         <div id="services" class="row" style="margin: 0;">
+            <div class="col-md-12" style="padding-top: 82px;padding-bottom: 30px;margin-top: 20px;">
+                <div class="section-heading text-center">
+                    <h2>Services</h2>
+                    <div class="line-shape"></div>
+                </div>
             </div>
             <div class="col-md-12">
-               <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-                  <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" style="background:#69579a">
-                     <div class="my-3 py-3">
-                        <h2 class="display-5">Printing</h2>
-                        <p class="lead">Get cheap and quality printout here.</p>
-                     </div>
-                     <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-                        <ul class="listPrinting" style="float: left;padding-top: 23px;list-style: disclosure-closed;color: black;">
-                           <li class="nav-item active">
-                              <a class="nav-link">Black & White Prints <span class="ex">&#x20b9;1.50/page</span></a>
+                <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+                    <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" style="background:#01b7d4">
+                        <div class="my-3 py-3">
+                            <h2 class="display-5">Printing</h2>
+                            <p class="lead">Get cheap and quality printout here.</p>
+                        </div>
+                        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                            <ul class="listPrinting" style="float: left;padding-top: 23px;list-style: disclosure-closed;color: black;">
+                                <li class="nav-item active">
+                                    <a class="nav-link">Black & White Prints <span
+                                            class="ex">&#x20b9;1.50/page</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">Colored prints <span class="ex">&#x20b9;3.00/page</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">Black & White Bond paper prints <span
+                                            class="ex">&#x20b9;2.50/page</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">Colored Bond Paper prints <span
+                                            class="ex">&#x20b9;6/page</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">Colored Glocery paper/Butter paper prints <span
+                                            class="ex">&#x20b9;20.00/page</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" style="background:#01b7d4">
+                        <div class="my-3 py-3">
+                            <h2 class="display-5">Other Facilities/Services</h2>
+                            <p class="lead">Get relevant and quality service here.</p>
+                        </div>
+                        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                            <ul class="listPrinting" style="float: left;padding-top: 23px;list-style: disclosure-closed;color: black;">
+                           <li class=" nav-item ">
+                              <a class=" nav-link ">Stick File Folder  <span class=" ex ">&#x20b9;5.00/page</span></a>
                            </li>
-                           <li class="nav-item">
-                              <a class="nav-link">Colored prints <span class="ex">&#x20b9;3.00/page</span></a>
+                           <li class=" nav-item ">
+                              <a class=" nav-link ">Binding  <span class=" ex ">&#x20b9;150/File</span></a>
                            </li>
-                           <li class="nav-item">
-                              <a class="nav-link">Black & White Bond paper prints  <span class="ex">&#x20b9;2.50/page</span></a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link">Colored Bond Paper prints  <span class="ex">&#x20b9;6/page</span></a>
-                           </li>
-						   <li class="nav-item">
-                              <a class="nav-link">Colored Glocery paper/Butter paper prints <span class="ex">&#x20b9;20.00/page</span></a>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" style="background:#69579a">
-                     <div class="my-3 py-3">
-                        <h2 class="display-5">Other Facilities/Services</h2>
-                        <p class="lead">Get relevant and quality service here.</p>
-                     </div>
-                     <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-                        <ul class="listPrinting" style="float: left;padding-top: 23px;list-style: disclosure-closed;color: black;"">
-                           <li class="nav-item">
-                              <a class="nav-link">Stick File Folder  <span class="ex">&#x20b9;5.00/page</span></a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link">Binding  <span class="ex">&#x20b9;150/File</span></a>
-                           </li>
-						   <li class="nav-item">
-                              <a class="nav-link" data-toggle="collapse" data-target="#demo1">Spiral Binding rate vary on <b style="cursor: pointer;">Term & Conditions</b></a>
-		                      <div id="demo1" class="collapse" >
+						   <li class=" nav-item ">
+                              <a class=" nav-link " data-toggle=" collapse " data-target=" #demo1 ">Spiral Binding rate vary on <b style=" cursor: pointer; ">Term & Conditions</b></a>
+		                      <div id=" demo1 " class=" collapse " >
 							    <ul>
-								<li>Maximum 50 page <span class="ex">&#x20b9;30/File.</span></li>
+								<li>Maximum 50 page <span class=" ex ">&#x20b9;30/File.</span></li>
 								<li>More than 50 page rate varies.</li>
 								</ul>
 							  </div>
 						   </li>
-                        </ul>
+                          </ul>
 		             </div>
                   </div>
                </div>
             </div>
          </div>
-		 
-         <div id="Contact-us"class="row" style="padding-top: 100px;margin: 0;">
-            <div class="col-md-12">
-                <div class="section-heading text-center">
-                        <h2>Contact Us</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                <div class="box-container">
-                  <div class="box">
-                     <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                     <div class='details'>
-                        <h3>India</h3>
-                     </div>
-                  </div>
-                  <div class="box">
-                     <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
-                     <div class='details'>
-                        <h3>+91 7983868472</h3>
-                     </div>
-                  </div>
-                  <div class="box">
-                     <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-                     <div class='details'>
-                        <h3>asonv.tech@gmail.com</h3>
-                     </div>
-                  </div>
-               </div>
-			</div>
-         </div>
+	
          <div class="contact-us-container container">
-             <div class="row">
-			  <div class="col-lg-6 col-xl-5 mr-xl-auto">
-                        <div class="special_description_content">
-                            
-							<h2>Contact Details</h2>
+	        <div class=" row ">
+			    <div class="col-md-12" style="padding-top: 82px;padding-bottom: 30px;margin-top: 20px;">
+                <div class="section-heading text-center">
+                    <h2>Contact Us</h2>
+                    <div class="line-shape"></div>
+                   </div>
+				</div>
+			   
+			   <div class=" col-lg-6 col-xl-5 mr-xl-auto ">
+                        <div class=" special_description_content ">
+                            <h2>Contact Details</h2>
                             <p>
-							<h2 style="font-size: 25px;margin: 0 !important;">Email</h2>
-							<span style="color: #fb397d;">asonv.tech@gmail.com</span>
+							<h2 style=" font-size: 25px;margin: 0 !important; text-align: left;">Email</h2>
+							<span style=" color: #fb397d; ">asonv.tech@gmail.com</span>
 							</p>
 							<p>
-							<h2 style="font-size: 25px;margin: 0 !important;">Mobile</h2>
-							<span style="color: #fb397d;">+91 7983868472</span>
+							<h2 style=" font-size: 25px;margin: 0 !important; text-align: left;">Mobile</h2>
+							<span style=" color: #fb397d; ">+91 7983868472</span>
 							</p>
 							<p>
-							<h2 style="font-size: 25px;margin: 0 !important;">Branch</h2>
-							<span style="color: #fb397d;">Dehradun , Hyderabad</span>
+							<h2 style=" font-size: 25px;margin: 0 !important; text-align: left;">Branch</h2>
+							<span style=" color: #fb397d; ">Dehradun , Hyderabad</span>
 							</p>
 					    </div>
                     </div>
-            <div class="col-lg-6 col-xl-6">
-			<div class="contact-form  mr-xl-auto">
-               <h1 class="title" style="margin-top: 10px;">Reach Us</h1>
-               <h2 class="subtitle">We are here to assist you.</h2>
+            <div class=" col-lg-6 col-xl-6 ">
+			<div class=" contact-form mr-xl-auto ">
+			   <div class="special_description_content">
+                   <h2 class="title" style="color: #5b32b4;font-weight: 100;font-size: 2em;margin-top: 0px;margin-bottom: 12px;">Reach Us</h2>
+			   </div>
+               <div class="special_description_content">
+					<h2 class="subtitle" style="font-size: 28px;margin-top: 0;font-weight: 500;">We are here to assist you.</h2>
+				</div>
                <form action="">
-                  <input type="text" name="name" placeholder="Your Name" />
-                  <input type="email" name="e-mail" placeholder="Your E-mail Adress" />
-                  <input type="tel" name="phone" placeholder="Your Phone Number"/>
-                  <textarea name="text" id="" rows="8" placeholder="Your Message"></textarea>
-                  <button class="btn-send">Get a Call Back</button>
+                  <input type=" text " name=" name " placeholder=" Your Name " />
+                  <input type=" email " name=" e-mail " placeholder=" Your E-mail Adress " />
+                  <input type=" tel " name=" phone " placeholder=" Your Phone Number "/>
+                  <textarea name=" text " id=" " rows=" 8 " placeholder=" Your Message "></textarea>
+                  <button class=" btn-send ">Get a Call Back</button>
                </form>
 			   </div>
             </div>
 			 </div>
          </div>
+   
          <footer class="container py-5">
-            <div class="row">
-               <div class="col-12 col-md">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2">
-                     <circle cx="12" cy="12" r="10"></circle>
-                     <line x1="14.31" y1="8" x2="20.05" y2="17.94"></line>
-                     <line x1="9.69" y1="8" x2="21.17" y2="8"></line>
-                     <line x1="7.38" y1="12" x2="13.12" y2="2.06"></line>
-                     <line x1="9.69" y1="16" x2="3.95" y2="6.06"></line>
-                     <line x1="14.31" y1="16" x2="2.83" y2="16"></line>
-                     <line x1="16.62" y1="12" x2="10.88" y2="21.94"></line>
-                  </svg>
-                  <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+            <div class=" row ">
+               <div class=" col-12 col-md ">
+                  <!-- <svg xmlns=" http://www.w3.org/2000/svg " width=" 24 " height=" 24 " viewBox=" 0 0 24 24 " fill=" none " stroke=" currentColor " stroke-width=" 2 " stroke-linecap=" round " stroke-linejoin=" round " class=" d-block mb-2 "> -->
+                     <!-- <circle cx=" 12 " cy=" 12 " r=" 10 "></circle> -->
+                     <!-- <line x1=" 14.31 " y1=" 8 " x2=" 20.05 " y2=" 17.94 "></line> -->
+                     <!-- <line x1=" 9.69 " y1=" 8 " x2=" 21.17 " y2=" 8 "></line> -->
+                     <!-- <line x1=" 7.38 " y1=" 12 " x2=" 13.12 " y2=" 2.06 "></line> -->
+                     <!-- <line x1=" 9.69 " y1=" 16 " x2=" 3.95 " y2=" 6.06 "></line> -->
+                     <!-- <line x1=" 14.31 " y1=" 16 " x2=" 2.83 " y2=" 16 "></line> -->
+                     <!-- <line x1=" 16.62 " y1=" 12 " x2=" 10.88 " y2=" 21.94 "></line> -->
+                  <!-- </svg> -->
+				  <img src="Asonv-Tech-Logo.jpg" alt="" id="img-logo" style=" height: 40px; width: 41px; padding: 0px; ">
+                  <small class=" d-block mb-3 text-muted ">&copy; 2017-2018</small>
                </div>
-               <div class="col-6 col-md">
+               <div class=" col-6 col-md ">
                   <h5>Features</h5>
-                  <ul class="list-unstyled text-small">
-                     <li><a class="text-muted" href="#">Quality Prints</a></li>
-                     <li><a class="text-muted" href="#">Door Step Delivery</a></li>
+                  <ul class=" list-unstyled text-small ">
+                     <li><a class=" text-muted " href=" # ">Quality Prints</a></li>
+                     <li><a class=" text-muted " href=" # ">Door Step Delivery</a></li>
                   </ul>
                </div>
-               <div class="col-6 col-md">
+               <div class=" col-6 col-md ">
                   <h5>Resources</h5>
-                  <ul class="list-unstyled text-small">
-                     <li><a class="text-muted" href="#">Resource</a></li>
-                     <li><a class="text-muted" href="#">Resource name</a></li>
+                  <ul class=" list-unstyled text-small ">
+                     <li><a class=" text-muted " href=" # ">Resource</a></li>
+                     <li><a class=" text-muted " href=" # ">Resource name</a></li>
                   </ul>
                </div>
-               <div class="col-6 col-md">
+               <div class=" col-6 col-md ">
                   <h5>Resources</h5>
-                  <ul class="list-unstyled text-small">
-                     <li><a class="text-muted" href="#">Business</a></li>
-                     <li><a class="text-muted" href="#">Education</a></li>
+                  <ul class=" list-unstyled text-small ">
+                     <li><a class=" text-muted " href=" # ">Business</a></li>
+                     <li><a class=" text-muted " href=" # ">Education</a></li>
                   </ul>
                </div>
-               <div class="col-6 col-md">
+               <div class=" col-6 col-md ">
                   <h5>About</h5>
-                  <ul class="list-unstyled text-small">
-                     <li><a class="text-muted" href="#">Team</a></li>
-                     <li><a class="text-muted" href="#">Locations</a></li>
-                     <li><a class="text-muted" href="#">Privacy</a></li>
-                     <li><a class="text-muted" href="#">Terms</a></li>
+                  <ul class=" list-unstyled text-small ">
+                     <li><a class=" text-muted " href=" # ">Team</a></li>
+                     <li><a class=" text-muted " href=" # ">Locations</a></li>
+                     <li><a class=" text-muted " href=" # ">Privacy</a></li>
+                     <li><a class=" text-muted " href=" # ">Terms</a></li>
                   </ul>
                </div>
             </div>
@@ -509,17 +559,17 @@
       <!-- Bootstrap core JavaScript
          ================================================== -->
       <!-- Placed at the end of the document so the pages load faster -->
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+      <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity=" sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin=" anonymous "></script>
+      <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js "><\/script>')</script>
       <script src="assets/js/vendor/popper.min.js"></script>
       <script src="dist/js/bootstrap.min.js"></script>
       <script src="assets/js/vendor/holder.min.js"></script>
       <script>
-         Holder.addTheme('thumb', {
-           bg: '#55595c',
-           fg: '#eceeef',
-           text: 'Thumbnail'
-         });
-      </script>
+        Holder.addTheme('thumb', {
+            bg: '#55595c',
+            fg: '#eceeef',
+            text: 'Thumbnail'
+        });
+    </script>
    </body>
 </html>
