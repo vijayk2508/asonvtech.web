@@ -7,8 +7,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>XeroxC</title>
-    <link rel="icon" href="favicon.ico">
+    <title>Asonv Technology</title>
+    <link rel="icon" href="Asonv-Tech-Logo.jpg">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
@@ -163,8 +163,10 @@
         
         .special_description_content>h2 {
             color: #5b32b4;
-            font-size: 48px;
+            /*
+			font-size: 48px;
             margin-bottom: 30px;
+			*/
         }
         
         .section_padding_100 {
@@ -222,6 +224,12 @@
         .ti-mobile:before {
             /*content: "\e621";*/
         }
+		
+		#img-logo{
+				width: 73px;
+				height: 60px;
+				padding-left: 10px;
+		}
         
         @media only screen and (max-width: 942px) {
             #home-left {
@@ -230,9 +238,25 @@
             .box-container {
                 width: 100%;
             }
+			
+			.special_description_content h2{
+			    text-align: center;
+			}
         }
+		
+		@media only screen and (max-width: 991px) {
+           .special_description_content h2{
+			    text-align: center;
+			}
+        }
+		
         
         @media only screen and (max-width: 438px) {
+		  #img-logo{
+				width: 58px;
+                height: 43px;
+				}
+				
             #header-title {
                 display: none;
             }
@@ -248,7 +272,7 @@
 
         <a class="navbar-brand" href="#" style=" display: flex; ">
             <div>
-                <img src="Asonv-Tech-Logo.jpg" alt="" style="width: 73px;height: 60px;padding-left: 10px;">
+                <img src="Asonv-Tech-Logo.jpg" alt="" id="img-logo">
             </div>
             <div style="padding-left: 11px;margin-left: 0px" class="row" id="header-title">
                 <label style="line-height: 26.5px;" class="col-sm-12 hidden-sm-12">
@@ -291,6 +315,8 @@
             <!-- <div class="product-device d-none d-md-block" style="background-image: url('banner1.svg');background-repeat: no-repeat;background-size: contain;"> -->
             <!-- </div> -->
         </div>
+		
+		<!-- ** *** -->
         <div class="container" style="padding: 10px;">
             <div class="row" style="margin: 0">
                 <div class="col-lg-12">
@@ -298,7 +324,7 @@
                 </div>
             </div>
         </div>
-
+		<!-- ** *** -->
 
         <!-- ***** Special Area Start ***** -->
         <section class="special-area bg-white section_padding_100" id="about-us">
@@ -307,7 +333,7 @@
                     <div class="row">
                         <div class="col-lg-6" style="text-align: center;">
                             <div class="special_description_img">
-                                <img src="Asonv-Tech-Logo.jpg" alt="" style="width: 50%;">
+                                <img src="Asonv-Tech-Logo1.jpg" alt="" style="width: 50%;">
                             </div>
                         </div>
                         <div class="col-lg-6 col-xl-5 mr-xl-auto">
@@ -368,7 +394,7 @@
         </section>
         <!-- ***** Special Area End ***** -->
 
-        <div id="services" class="row" style="margin: 0;">
+         <div id="services" class="row" style="margin: 0;">
             <div class="col-md-12" style="padding-top: 82px;padding-bottom: 30px;margin-top: 20px;">
                 <div class="section-heading text-center">
                     <h2>Services</h2>
@@ -412,7 +438,7 @@
                             <p class="lead">Get relevant and quality service here.</p>
                         </div>
                         <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-                            <ul class="listPrinting" style="float: left;padding-top: 23px;list-style: disclosure-closed;color: black;" ">
+                            <ul class="listPrinting" style="float: left;padding-top: 23px;list-style: disclosure-closed;color: black;">
                            <li class=" nav-item ">
                               <a class=" nav-link ">Stick File Folder  <span class=" ex ">&#x20b9;5.00/page</span></a>
                            </li>
@@ -428,40 +454,48 @@
 								</ul>
 							  </div>
 						   </li>
-                        </ul>
+                          </ul>
 		             </div>
                   </div>
                </div>
             </div>
          </div>
-    
-         
-
-         <div class=" contact-us-container container ">
-             <div class=" row ">
-			  <div class=" col-lg-6 col-xl-5 mr-xl-auto ">
+	
+         <div class="contact-us-container container">
+	        <div class=" row ">
+			    <div class="col-md-12" style="padding-top: 82px;padding-bottom: 30px;margin-top: 20px;">
+                <div class="section-heading text-center">
+                    <h2>Contact Us</h2>
+                    <div class="line-shape"></div>
+                   </div>
+				</div>
+			   
+			   <div class=" col-lg-6 col-xl-5 mr-xl-auto ">
                         <div class=" special_description_content ">
-                            
-							<h2>Contact Details</h2>
+                            <h2>Contact Details</h2>
                             <p>
-							<h2 style=" font-size: 25px;margin: 0 !important; ">Email</h2>
+							<h2 style=" font-size: 25px;margin: 0 !important; text-align: left;">Email</h2>
 							<span style=" color: #fb397d; ">asonv.tech@gmail.com</span>
 							</p>
 							<p>
-							<h2 style=" font-size: 25px;margin: 0 !important; ">Mobile</h2>
+							<h2 style=" font-size: 25px;margin: 0 !important; text-align: left;">Mobile</h2>
 							<span style=" color: #fb397d; ">+91 7983868472</span>
 							</p>
 							<p>
-							<h2 style=" font-size: 25px;margin: 0 !important; ">Branch</h2>
+							<h2 style=" font-size: 25px;margin: 0 !important; text-align: left;">Branch</h2>
 							<span style=" color: #fb397d; ">Dehradun , Hyderabad</span>
 							</p>
 					    </div>
                     </div>
             <div class=" col-lg-6 col-xl-6 ">
 			<div class=" contact-form mr-xl-auto ">
-               <h1 class=" title " style=" margin-top: 10px; ">Reach Us</h1>
-               <h2 class=" subtitle ">We are here to assist you.</h2>
-               <form action=" ">
+			   <div class="special_description_content">
+                   <h2 class="title" style="color: #5b32b4;font-weight: 100;font-size: 2em;margin-top: 0px;margin-bottom: 12px;">Reach Us</h2>
+			   </div>
+               <div class="special_description_content">
+					<h2 class="subtitle" style="font-size: 28px;margin-top: 0;font-weight: 500;">We are here to assist you.</h2>
+				</div>
+               <form action="">
                   <input type=" text " name=" name " placeholder=" Your Name " />
                   <input type=" email " name=" e-mail " placeholder=" Your E-mail Adress " />
                   <input type=" tel " name=" phone " placeholder=" Your Phone Number "/>
@@ -472,18 +506,20 @@
             </div>
 			 </div>
          </div>
-         <footer class=" container py-5 ">
+   
+         <footer class="container py-5">
             <div class=" row ">
                <div class=" col-12 col-md ">
-                  <svg xmlns=" http://www.w3.org/2000/svg " width=" 24 " height=" 24 " viewBox=" 0 0 24 24 " fill=" none " stroke=" currentColor " stroke-width=" 2 " stroke-linecap=" round " stroke-linejoin=" round " class=" d-block mb-2 ">
-                     <circle cx=" 12 " cy=" 12 " r=" 10 "></circle>
-                     <line x1=" 14.31 " y1=" 8 " x2=" 20.05 " y2=" 17.94 "></line>
-                     <line x1=" 9.69 " y1=" 8 " x2=" 21.17 " y2=" 8 "></line>
-                     <line x1=" 7.38 " y1=" 12 " x2=" 13.12 " y2=" 2.06 "></line>
-                     <line x1=" 9.69 " y1=" 16 " x2=" 3.95 " y2=" 6.06 "></line>
-                     <line x1=" 14.31 " y1=" 16 " x2=" 2.83 " y2=" 16 "></line>
-                     <line x1=" 16.62 " y1=" 12 " x2=" 10.88 " y2=" 21.94 "></line>
-                  </svg>
+                  <!-- <svg xmlns=" http://www.w3.org/2000/svg " width=" 24 " height=" 24 " viewBox=" 0 0 24 24 " fill=" none " stroke=" currentColor " stroke-width=" 2 " stroke-linecap=" round " stroke-linejoin=" round " class=" d-block mb-2 "> -->
+                     <!-- <circle cx=" 12 " cy=" 12 " r=" 10 "></circle> -->
+                     <!-- <line x1=" 14.31 " y1=" 8 " x2=" 20.05 " y2=" 17.94 "></line> -->
+                     <!-- <line x1=" 9.69 " y1=" 8 " x2=" 21.17 " y2=" 8 "></line> -->
+                     <!-- <line x1=" 7.38 " y1=" 12 " x2=" 13.12 " y2=" 2.06 "></line> -->
+                     <!-- <line x1=" 9.69 " y1=" 16 " x2=" 3.95 " y2=" 6.06 "></line> -->
+                     <!-- <line x1=" 14.31 " y1=" 16 " x2=" 2.83 " y2=" 16 "></line> -->
+                     <!-- <line x1=" 16.62 " y1=" 12 " x2=" 10.88 " y2=" 21.94 "></line> -->
+                  <!-- </svg> -->
+				  <img src="Asonv-Tech-Logo.jpg" alt="" id="img-logo" style=" height: 40px; width: 41px; padding: 0px; ">
                   <small class=" d-block mb-3 text-muted ">&copy; 2017-2018</small>
                </div>
                <div class=" col-6 col-md ">
@@ -525,9 +561,9 @@
       <!-- Placed at the end of the document so the pages load faster -->
       <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity=" sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin=" anonymous "></script>
       <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js "><\/script>')</script>
-      <script src=" assets/js/vendor/popper.min.js "></script>
-      <script src=" dist/js/bootstrap.min.js "></script>
-      <script src=" assets/js/vendor/holder.min.js "></script>
+      <script src="assets/js/vendor/popper.min.js"></script>
+      <script src="dist/js/bootstrap.min.js"></script>
+      <script src="assets/js/vendor/holder.min.js"></script>
       <script>
         Holder.addTheme('thumb', {
             bg: '#55595c',
