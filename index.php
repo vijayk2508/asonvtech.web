@@ -8,7 +8,7 @@
     <meta name="author" content="">
 
     <title>Asonv Technology</title>
-    <link rel="icon" href="transparent-img.png">
+    <link rel="icon" href="assets/img/transparent-img.png">
 
     <link href="./bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -262,8 +262,8 @@
         <footer class="container py-5">
             <div class="row">
                 <div class="col-12 col-md" style="text-align: center;">
-                    <img src="Asonv-Tech-Logo.jpg" alt="" id="img-logo" style=" height: 40px; width: 41px; padding: 0px; ">
-					<small class=" d-block mb-3 text-muted ">All right reserved &copy; 2019-2020</small>
+                    <img src="assets/img/Asonv-Tech-Logo.jpg" alt="" id="img-logo" style=" height: 40px; width: 41px; padding: 0px; ">
+					<small class=" d-block mb-3 text-muted "> All right reserved &copy; 2019-2020</small>
                 </div>
                 <!-- <div class=" col-6 col-md "> -->
                     <!-- <h5>Features</h5> -->
