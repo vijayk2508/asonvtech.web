@@ -277,8 +277,10 @@ function App() {
           </div>
         </div>
 
+        <hr style={{ border: "1px solid white" }}></hr>
+
         <div className="row" style={{ margin: 0 }}>
-          <div className="col-md-12" style={{ padding: 0, background: "white" }}>
+          <div className="col-md-12" style={{ padding: 0, color: "white" }}>
             <header class="header-design">
               <div class="listar-map-button">
                 <div class="listar-map-button-text" style={{ opacity: 1, display: "inline-block" }}>
