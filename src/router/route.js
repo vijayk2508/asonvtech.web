@@ -1,17 +1,17 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import route from "./routeConstant";
+import { BrowserRouter, Route } from "react-router-dom";
+import routeConstant from "./routeConstant";
+import Home from "../components/Home";
 
-function Route() {
+function Router() {
   return (
-    <Router>
-      <Switch>
-        {Object.values(route).map((item) => (
-          <Route path={item.path}> {item.component}</Route>
-        ))}
-      </Switch>
-    </Router>
+    <BrowserRouter>
+      {routeConstant.map((item, i) => {
+        return <Route path={item.path} render={item.component} key={i} exact={true}></Route>;
+      })}
+      {/* <Route path={"/"} render={Home}></Route> */}
+    </BrowserRouter>
   );
 }
 
-export default Route;
+export default Router;

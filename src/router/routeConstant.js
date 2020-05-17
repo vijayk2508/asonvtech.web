@@ -4,27 +4,27 @@ import Contact from "../components/Contact";
 import Services from "../components/Services";
 import { link } from "./routeLink";
 
-const route = {
-  HOME: {
+const routeConstant = [
+  {
     name: "Home",
     path: link.HOME,
-    component: <Home />,
+    component: Home,
   },
-  ABOUT: {
+  {
     name: "About",
     path: link.ABOUT,
-    component: <About />,
+    component: About,
   },
-  CONTACT: {
+  {
     name: "Contact",
     path: link.CONTACT,
-    component: <Contact />,
+    component: Contact,
   },
-  SERVICES: {
+  {
     name: "Services",
     path: link.SERVICES,
-    component: <Services />,
+    component: Services,
   },
-};
+];
 
-export default route;
+export default routeConstant;
