@@ -1,5 +1,5 @@
 import React from "react";
-import NavLink  from './NavLink'
+import NavLink from "./NavLink";
 
 function Nav() {
   return (
@@ -19,7 +19,7 @@ function Nav() {
       </button>
       <div className="collapse navbar-collapse tm-nav" id="navbar-nav">
         <ul className="navbar-nav text-uppercase">
-          <NavLink/>
+          <NavLink />
         </ul>
       </div>
     </nav>

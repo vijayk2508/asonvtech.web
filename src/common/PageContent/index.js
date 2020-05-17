@@ -20,4 +20,4 @@ PageContent.defaultProps = {
   main_className: "",
 };
 
-export default (PageContent);
+export default PageContent;

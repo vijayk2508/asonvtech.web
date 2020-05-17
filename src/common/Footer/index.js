@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 function Footer() {
-    return (
-        <>
-          <div class="tm-row">
+  return (
+    <>
+      <div class="tm-row">
         <div class="tm-col-left text-center">
           <ul class="tm-bg-controls-wrapper">
             <li class="tm-bg-control active" data-id="0"></li>
@@ -26,9 +26,9 @@ function Footer() {
       <div class="tm-bg">
         <div class="tm-bg-left"></div>
         <div class="tm-bg-right"></div>
-      </div>   
-        </>
-    )
+      </div>
+    </>
+  );
 }
 
-export default Footer
+export default Footer;
