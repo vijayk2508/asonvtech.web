@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import routeConstant from "./routeConstant";
-import Home from "../components/Home";
 
 function Router() {
   return (
