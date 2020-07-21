@@ -1,4 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+git add .
+git commit -m  'ANy msg' 
+git push 
+git push origin mybranchname:target   sube:development
+
+git pull origin development
+
+his project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
