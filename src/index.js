@@ -5,6 +5,7 @@ import * as serviceWorker from './serviceWorker'
 
 import './assets/bootstrap/css/bootstrap.css'
 import './assets/css/style.css'
+import './assets/css/services.css'
 import './assets/bootstrap/js/bootstrap.bundle.min'
 import '@fortawesome/fontawesome-free/css/all.css'
 

@@ -9,41 +9,41 @@ function Footer() {
           <div className="row ">
             <div className="col-md-4 text-center text-md-left ">
               <div className="py-0">
-                <h3 className="my-4 text-white">
-                  Get In Touch
-                </h3>
+                <h3 className="my-4 text-white">Get In Touch</h3>
 
                 <div className="py-2 my-4 text-white">
                   <div>
                     <p>
                       <i className="fa fa-map-marker mx-2 "></i>
-                    309 - Rupa Solitaire, Bldg. No. A - 1, Sector - 1 Mahape,
-                    Navi Mumbai - 400710
-                  </p>
+                      309 - Rupa Solitaire, Bldg. No. A - 1, Sector - 1 Mahape,
+                      Navi Mumbai - 400710
+                    </p>
                   </div>
 
                   <div>
                     <p>
                       <i className="fa fa-phone  mx-2 "></i> +91 22-27782183
-                  </p>
+                    </p>
                   </div>
                   <div>
                     <p>
                       <i className="fa fa-envelope  mx-2"></i>
-                      <a href="mailto:asonv.tech@gmail.com">asonv.tech@gmail.com</a>
+                      <a href="mailto:asonv.tech@gmail.com">
+                        asonv.tech@gmail.com
+                      </a>
                     </p>
                   </div>
                 </div>
-
               </div>
             </div>
-
 
             <div className="col-md-4 text-white my-4 text-center text-md-left ">
               <span className=" font-weight-bold ">About the Company</span>
               <p className="text-warning my-2">
-                We offer training and skill building courses across Technology,
-                Design, Management, Science and Humanities.
+                AsonvTech is mainly specialised in Web Development and
+                Application Development services, along with Digital Marketing
+                and SEO. A Start-up with innovative minds designed to provide
+                effortless digital services
               </p>
               <div className="py-2">
                 <a href="#">
@@ -62,7 +62,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <hr className="p-0 m-0 b-0 bg-white"  />
+        <hr className="p-0 m-0 b-0 bg-white" />
         <div className="py-2">
           <div className="container text-center">
             <p className="text-muted mb-0 py-2">
@@ -71,7 +71,7 @@ function Footer() {
           </div>
         </div>
       </footer>
-     </>
+    </>
   )
 }
 

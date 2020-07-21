@@ -8,7 +8,7 @@ function Routes(props) {
   return (
     <Switch>
       {routeConstant.map((routes, routeKey) => {
-        return (
+        return routes.accessibility===true && (
           <RouteConfig
             key={routeKey}
             render={LoadRoute}

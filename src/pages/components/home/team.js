@@ -1,53 +1,56 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React from 'react'
 
 const teamData = [
   {
+    imageUrl: require(`../../../assets/images/vijay.jpg`),
+    name: 'Vijay Kumar',
+    designation: 'Founder & CEO',
+    socialLink: {
+      facebook: 'https://www.facebook.com/VijayK2508',
+      instagram: '',
+      twitter: '',
+      linkedIn: 'https://www.linkedin.com/in/vijay-kumar-652646111/',
+    },
+  },
+  {
+    //imageUrl: require(`../../../assets/images/subendu.jpeg`),
     imageUrl: require(`../../../assets/images/avatar-1_s02nlg.png`),
-    name: "Vijay Kumar",
-    designation: "CEO Founder",
+    name: 'Subhendu Mahapatra',
+    designation: 'Co-Founder',
     socialLink: {
-      facebook: "https://www.facebook.com/VijayK2508",
-      instagram: "",
-      twitter: "",
-      linkedIn: "",
+      facebook: '',
+      instagram: '',
+      twitter: '',
+      linkedIn : '',
+      // linkedIn: 'https://www.linkedin.com/in/subhendu-kumar-mahapatra/',
     },
   },
   {
-    imageUrl: require(`../../../assets/images/avatar-2_f8dowd.png`),
-    name: "User 1",
-    designation: "Designation 1",
+    imageUrl: require(`../../../assets/images/sonali.jpeg`),
+    name: 'Sonali Mahapatra',
+    designation: 'Content Writer',
     socialLink: {
-      facebook: "",
-      instagram: "",
-      twitter: "",
-      linkedIn: "",
-    },
-  },
-  {
-    imageUrl: require(`../../../assets/images/avatar-3_hzlize.png`),
-    name: "User 2",
-    designation: "Desgination 2",
-    socialLink: {
-      facebook: "",
-      instagram: "",
-      twitter: "",
-      linkedIn: "",
+      facebook: '',
+      instagram: '',
+      twitter: '',
+      linkedIn: 'https://www.linkedin.com/in/sonali-mahapatra-211a96176/',
     },
   },
   {
     imageUrl: require(`../../../assets/images/avatar-4_ozhrib.png`),
-    name: "User 3",
-    designation: "Desgination 3",
+    name: "Saraswati Mohapatra",
+    designation: "Digital Marketing",
     socialLink: {
       facebook: "",
       instagram: "",
       twitter: "",
-      linkedIn: "",
+      linkedIn : "",
+     // linkedIn: "https://www.linkedin.com/in/saraswati-mohapatra-5230b2193/",
     },
   },
-];
+]
 
 function Team() {
   return (
@@ -56,9 +59,9 @@ function Team() {
         <div className="container py-5">
           <div className="row mb-4">
             <div className="col-md-12 text-center">
-              <h2 className="display-4 font-weight-light ">Our team</h2>
+              <h2 className="display-4 font-weight-light ">Our Team</h2>
               <p className="font-italic text-muted ">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. */}
               </p>
             </div>
           </div>
@@ -71,7 +74,7 @@ function Team() {
                     <img
                       src={eachTeamMember.imageUrl}
                       alt=""
-                      width="100"
+                      style={{ height: '245px', width: '100%' }}
                       className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
                     />
                     <h5 className="mb-0">{eachTeamMember.name}</h5>
@@ -79,7 +82,7 @@ function Team() {
                       {eachTeamMember.designation}
                     </span>
                     <ul className="social mb-0 list-inline mt-3">
-                      <li className="list-inline-item">
+                      {/* <li className="list-inline-item">
                         <a
                           href={eachTeamMember.socialLink.facebook}
                           className="social-link"
@@ -105,7 +108,7 @@ function Team() {
                         >
                           <i className="fab fa-instagram"></i>
                         </a>
-                      </li>
+                      </li> */}
                       <li className="list-inline-item">
                         <a
                           href={eachTeamMember.socialLink.linkedIn}
@@ -118,13 +121,13 @@ function Team() {
                     </ul>
                   </div>
                 </div>
-              );
+              )
             })}
           </div>
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default Team;
+export default Team

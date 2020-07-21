@@ -18,7 +18,7 @@ function lazyLoadComponent(componentParent, componentPath) {
     case 'pages':
       Component = lazy(() => {
         return new Promise((resolve) => {
-          setTimeout(() => resolve(import(`../pages/${componentPath}`)), 30000)
+          setTimeout(() => resolve(import(`../pages/${componentPath}`)), 2000)
         })
       })
       break
