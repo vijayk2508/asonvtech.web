@@ -9,12 +9,12 @@ function Banner() {
           <div className="row">
             <div className="col-md-6">
               <p className="promo-title">Asonv Technology</p>
-              <p>Where the Innovation Matters</p>
-              <a href="#">
+              <p>Where Innovation Matters</p>
+              {/* <a href="#">
                 <span>
                   <i className="far fa-play-circle"></i> Get Start
                 </span>
-              </a>
+              </a> */}
             </div>
             <div className="col-md-6">
               <img
