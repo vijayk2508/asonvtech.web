@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/error404.js"],"names":["Error404"],"mappings":"gHAAA,2BAUeA,UARf,WACI,OACI","file":"static/js/19.57350fb0.chunk.js","sourcesContent":["import React from 'react'\r\n\r\nfunction Error404() {\r\n    return (\r\n        <div>\r\n            No Page Exist\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Error404\r\n"],"sourceRoot":""}

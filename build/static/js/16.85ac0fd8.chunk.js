@@ -1,0 +1,2 @@
+(this["webpackJsonpcustom-app"]=this["webpackJsonpcustom-app"]||[]).push([[16],{31:function(e,n,t){"use strict";t.r(n);var a=t(0),r=t.n(a);n.default=function(){return r.a.createElement(r.a.Fragment,null,r.a.createElement("a",{className:"navbar-brand",href:"#",style:{border:"none",background:"none",color:"white",fontSize:"30",fontWeight:600}},"ASONV TECH"))}}}]);
+//# sourceMappingURL=16.85ac0fd8.chunk.js.map
