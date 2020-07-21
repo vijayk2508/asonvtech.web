@@ -2,7 +2,6 @@
 import React from 'react'
 import Layout from '../components/_layout'
 import WhatWeDo from './components/home/whatwedo'
-import Team from './components/home/team'
 import Banner from './components/home/banner'
 
 
