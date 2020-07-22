@@ -9,7 +9,7 @@ function About() {
       <Heading title="About Us"></Heading>
       <div className="about">
         <div className="container">
-          <p style={{textAlign : "justify"}}>
+          <p style={{ textAlign: 'justify' }}>
             AsonvTech is mainly specialised in Web Development and Application
             Development services, along with Digital Marketing and SEO. A
             Start-up with innovative minds designed to provide effortless
@@ -22,7 +22,7 @@ function About() {
             integrated approach towards digital marketing as well as SEO.
           </p>
           <br />
-          <p style={{textAlign : "justify"}}>
+          <p style={{ textAlign: 'justify' }}>
             We are a team of critical, creative, and technical brains assuring
             that you resort to all sorts of services with the idea of building
             trust. At AsonvTech, we understand that time is valuable to you so
@@ -35,7 +35,7 @@ function About() {
             minimal price range than the rest.
           </p>
           <br />
-          <p style={{textAlign : "justify"}}>
+          <p style={{ textAlign: 'justify' }}>
             Other than the technical services, our Content and Digital Marketing
             veterans assure your visibility to your target audience as well as
             help you get them engaged on social media and remarketing, to
