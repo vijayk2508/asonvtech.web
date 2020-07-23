@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
+import React from "react";
 
-function Banner() {
+function Banner(props) {
   return (
     <>
       <div id="banner">
@@ -9,7 +9,16 @@ function Banner() {
           <div className="row">
             <div className="col-md-6">
               <p className="promo-title">Asonv Technology</p>
-              <p>Where Innovation Matters</p>
+              <p style={{ fontWeight: "bold" }}>Where Innovation Matters</p>
+              <br></br>
+              <p style={{ fontWeight: "bold" }}>
+                Energize your Business with customized Websites and
+                Applications.
+              </p>
+              <p style={{ fontWeight: "bold" }}>
+                We also provide services in - SEO , Digital Marketing & Social Media Marketing
+              </p>
+
               {/* <a href="#">
                 <span>
                   <i className="far fa-play-circle"></i> Get Start
@@ -20,7 +29,7 @@ function Banner() {
               <img
                 id="img-intro"
                 className="rounded-lg"
-                src={require('../../../assets/svg/intro.svg')}
+                src={require("../../../assets/svg/intro.svg")}
                 alt=""
               />
             </div>
@@ -28,7 +37,7 @@ function Banner() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default Banner
+export default Banner;

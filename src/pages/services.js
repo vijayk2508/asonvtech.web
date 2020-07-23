@@ -16,8 +16,7 @@ function Services() {
                 <i class="fas fa-mobile-alt"></i>
                 <h4 class="text-capitalize">Fully Responsive</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut.
+                  The websites we develop are fully responsive and adapt to devices automatically.
                 </p>
               </div>
             </div>
@@ -26,8 +25,7 @@ function Services() {
                 <i class="far fa-user"></i>
                 <h4 class="text-capitalize">User Friendly</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut.
+                  We create user friendly sites so that it adapts to the user's usability.
                 </p>
               </div>
             </div>
@@ -36,8 +34,7 @@ function Services() {
                 <i class="far fa-file-alt"></i>
                 <h4 class="text-capitalize">Well Documented</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut.
+                  Our sites are well documented so that we develop them based on user's requirements.
                 </p>
               </div>
             </div>
@@ -46,8 +43,7 @@ function Services() {
                 <i class="fas fa-key"></i>
                 <h4 class="text-capitalize">Easy &amp; Customizable</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut.
+                  We customize your sites based on your needs and preferences, which can be flexibile enough.
                 </p>
               </div>
             </div>
@@ -58,8 +54,7 @@ function Services() {
                 <i class="fas fa-globe"></i>
                 <h4 class="text-capitalize">Cross Browser</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut.
+                  Our sites support all the latest browsers with ease and give you a nice experience in viewing.
                 </p>
               </div>
             </div>
@@ -68,8 +63,7 @@ function Services() {
                 <i class="fab fa-bootstrap"></i>
                 <h4 class="text-capitalize">Based on bootstrap</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut.
+                  Our Bootstrap based websites make them very responsive and user friendly and also give you a smooth usability.
                 </p>
               </div>
             </div>
@@ -87,12 +81,11 @@ function Services() {
                   src="assets/images/icons/clock-white.svg"
                   alt=""
                 />
-                <h3 class="item-title">10X Faster Development</h3>
+                <h3 class="item-title">Web & App Development</h3>
                 <div class="item-desc">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient montes, nascetur
-                  ridiculus mus.
+                  We provide services in web & app development. We use all the latest 
+                  libraries, technologies, and custom development according to the user requirement.
+                  We are working with Scripting language and Core Programming languauges for better performance.
                 </div>
               </div>
             </div>
@@ -105,10 +98,8 @@ function Services() {
                 />
                 <h3 class="item-title">Increase Productivity</h3>
                 <div class="item-desc">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient montes, nascetur
-                  ridiculus mus.
+                  We initiate working according to the SCRUM, where we can discuss our everyday plan and schedule.
+                  It will automatically increase productivity while getting daily status and performance rate.
                 </div>
               </div>
             </div>
@@ -119,12 +110,11 @@ function Services() {
                   src="assets/images/icons/chat-white.svg"
                   alt=""
                 />
-                <h3 class="item-title">Better Collabration</h3>
+                <h3 class="item-title">Better Collaboration</h3>
                 <div class="item-desc">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient montes, nascetur
-                  ridiculus mus.
+                 We also work on better collaboration with businesses where we will help them grow exponentially 
+                 using our custom build websites. Also we will work and give the businesses support in SEO & Digital 
+                 Marketing with their brand new websites where they can have a very good start.
                 </div>
               </div>
             </div>

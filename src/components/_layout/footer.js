@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
+import React from "react";
 
 function Footer() {
   return (
     <>
-      <footer style={{ background: '#2c292f' }}>
+      <footer style={{ background: "#2c292f" }}>
         <div className="container">
           <div className="row ">
             <div className="col-md-4 text-center text-md-left ">
@@ -12,17 +12,17 @@ function Footer() {
                 <h3 className="my-4 text-white">Get In Touch</h3>
 
                 <div className="py-2 my-4 text-white">
-                  <div>
+                  {/* <div>
                     <p>
                       <i className="fa fa-map-marker mx-2 "></i>
                       309 - Rupa Solitaire, Bldg. No. A - 1, Sector - 1 Mahape,
                       Navi Mumbai - 400710
                     </p>
-                  </div>
+                  </div> */}
 
                   <div>
                     <p>
-                      <i className="fa fa-phone  mx-2 "></i> +91 22-27782183
+                      <i className="fa fa-phone  mx-2 "></i> +91 7983868472
                     </p>
                   </div>
                   <div>
@@ -37,16 +37,21 @@ function Footer() {
               </div>
             </div>
 
-            <div className="col-md-4 text-white my-4 text-center text-md-left ">
+            <div className="col-md-8 text-white my-4 text-center text-md-left ">
               <span className=" font-weight-bold ">About the Company</span>
-              <p className="text-warning my-2">
+              <p className="my-2" style={{color :"#08e8ff !important"}}>
                 AsonvTech is mainly specialised in Web Development and
                 Application Development services, along with Digital Marketing
                 and SEO. A Start-up with innovative minds designed to provide
                 effortless digital services
               </p>
               <div className="py-2">
-                <a href="#">
+                <a href="www.linkedin.com/in/asonv-tech" target="_blank">
+                  <i
+                    className="fab fa-linkedin fa-2x mx-0"
+                  ></i>
+                </a>
+                {/* <a href="#">s
                   <i className="fab fa-facebook fa-2x text-primary mx-3"></i>
                 </a>
                 <a href="#">
@@ -57,7 +62,7 @@ function Footer() {
                 </a>
                 <a href="#">
                   <i className="fab fa-youtube fa-2x text-danger mx-3"></i>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -72,7 +77,7 @@ function Footer() {
         </div>
       </footer>
     </>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
