@@ -50,8 +50,8 @@ body {
 .navbar-nav li a {
   color: #fff !important;
   font-weight: 600 !important;
-  float: right;
-  text-align: left;
+  float: left;
+  text-align: right;
 }
 
 .fa-bars {

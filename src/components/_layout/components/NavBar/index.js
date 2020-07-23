@@ -8,8 +8,8 @@ function NavBar() {
     <div id="nav-bar">
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
-          <Logo/>
           <ToggleButton />
+          <Logo/>
           <CollapseNavBar></CollapseNavBar>
         </div>
       </nav>

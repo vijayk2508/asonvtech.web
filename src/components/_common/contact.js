@@ -13,9 +13,24 @@ function Contact() {
 
   return (
     <>
-      <Heading title="Feel Free To Contact US" 
-      //style={heading_style} 
-      className="" />
+      <div style={{padding : "5%", textAlign : "center"}}>
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSdJYPAYXm5lVNpu-wRbl0qHoUtbx1IIoFDrYVU0z8ei4m2Sww/viewform?embedded=true"
+          width="100%"
+          height="1000"
+          frameBorder="0"
+          marginHeight="0"
+          marginWidth="0"
+        >
+          Loading…
+        </iframe>
+      </div>
+      {/* 
+       <Heading
+        title="Feel Free To Contact US"
+        //style={heading_style}
+        className=""
+      />
       <div className="container py-5 animated fadeIn">
         <div className="row" id="parent">
           <div className="col-md-6">
@@ -31,10 +46,6 @@ function Contact() {
 
           <div className="col-6">
             <form className="row g-3">
-              {/* <div className="col-md-12">
-                <label for="inputEmail4" className="form-label">Email</label>
-                <input type="email" className="form-control" id="inputEmail4" />
-              </div> */}
               <div className="col-md-12">
                 <input
                   type="text"
@@ -163,6 +174,8 @@ function Contact() {
           </div>
         </div>
       </div>
+    
+     */}
     </>
   );
 }

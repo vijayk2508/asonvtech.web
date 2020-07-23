@@ -4,13 +4,11 @@ import React from 'react'
 
 const teamData = [
   {
-    imageUrl: require(`../../../assets/images/vijay.jpg`),
+//    imageUrl: require(`../../../assets/images/vijay.jpg`),
+    imageUrl: require(`../../../assets/images/avatar-1_s02nlg.png`),
     name: 'Vijay Kumar',
     designation: 'Founder & CEO',
     socialLink: {
-      facebook: 'https://www.facebook.com/VijayK2508',
-      instagram: '',
-      twitter: '',
       linkedIn: 'https://www.linkedin.com/in/vijay-kumar-652646111/',
     },
   },
@@ -20,21 +18,16 @@ const teamData = [
     name: 'Subhendu Mahapatra',
     designation: 'Co-Founder',
     socialLink: {
-      facebook: '',
-      instagram: '',
-      twitter: '',
       linkedIn : '',
       // linkedIn: 'https://www.linkedin.com/in/subhendu-kumar-mahapatra/',
     },
   },
   {
-    imageUrl: require(`../../../assets/images/sonali.jpeg`),
+    //imageUrl: require(`../../../assets/images/sonali.jpeg`),
+    imageUrl: require(`../../../assets/images/avatar-4_ozhrib.png`),
     name: 'Sonali Mahapatra',
-    designation: 'Content Writer',
+    designation: 'Content Writer & Management',
     socialLink: {
-      facebook: '',
-      instagram: '',
-      twitter: '',
       linkedIn: 'https://www.linkedin.com/in/sonali-mahapatra-211a96176/',
     },
   },
@@ -43,9 +36,6 @@ const teamData = [
     name: "Saraswati Mohapatra",
     designation: "Digital Marketing",
     socialLink: {
-      facebook: "",
-      instagram: "",
-      twitter: "",
       linkedIn : "",
      // linkedIn: "https://www.linkedin.com/in/saraswati-mohapatra-5230b2193/",
     },
@@ -74,7 +64,7 @@ function Team() {
                     <img
                       src={eachTeamMember.imageUrl}
                       alt=""
-                      style={{ height: '245px', width: '100%' }}
+                      style={{ height: '208px', width: '100%' }}
                       className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
                     />
                     <h5 className="mb-0">{eachTeamMember.name}</h5>
