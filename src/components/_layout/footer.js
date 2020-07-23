@@ -39,7 +39,7 @@ function Footer() {
 
             <div className="col-md-8 text-white my-4 text-center text-md-left ">
               <span className=" font-weight-bold ">About the Company</span>
-              <p className="my-2" style={{color :"#08e8ff !important"}}>
+              <p className="my-2 desc">
                 AsonvTech is mainly specialised in Web Development and
                 Application Development services, along with Digital Marketing
                 and SEO. A Start-up with innovative minds designed to provide
