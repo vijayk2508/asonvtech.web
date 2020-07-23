@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
 import Heading from "./heading";
-
+import HubspotForm from 'react-hubspot-form'
 function Contact() {
   const heading_style = {
     padding: "29px 0px",
@@ -13,17 +13,14 @@ function Contact() {
 
   return (
     <>
-      <div style={{padding : "5%", textAlign : "center"}}>
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSdJYPAYXm5lVNpu-wRbl0qHoUtbx1IIoFDrYVU0z8ei4m2Sww/viewform?embedded=true"
-          width="100%"
-          height="1000"
-          frameBorder="0"
-          marginHeight="0"
-          marginWidth="0"
-        >
-          Loading…
-        </iframe>
+      <div style={{ padding: "10%", textAlign: "center" }}>
+        <HubspotForm
+          portalId="8148391"
+          formId="c2b2d22d-cc9b-46ec-83f4-37ed626686d2"
+          onSubmit={() => console.log("Submit!")}
+          onReady={(form) => console.log("Form ready!")}
+          loading={<div>Loading...</div>}
+        />
       </div>
       {/* 
        <Heading
