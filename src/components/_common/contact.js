@@ -19,7 +19,7 @@ function Contact() {
           formId="c2b2d22d-cc9b-46ec-83f4-37ed626686d2"
           onSubmit={() => console.log("Submit!")}
           onReady={(form) => console.log("Form ready!")}
-          loading={<div>Loading...</div>}
+          loading={<div>Loading...</div>} 
         />
       </div>
       {/* 
