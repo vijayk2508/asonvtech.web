@@ -1,0 +1,15 @@
+{
+  "short_name": "Asonv Tech",
+  "name": "Asonv Tech",
+  "icons": [
+    {
+      "src": "logo.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
