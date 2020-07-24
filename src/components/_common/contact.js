@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
 import Heading from "./heading";
-import HubspotForm from 'react-hubspot-form'
+import HubspotForm from "react-hubspot-form";
 function Contact() {
   const heading_style = {
     padding: "29px 0px",
@@ -14,20 +14,17 @@ function Contact() {
   return (
     <>
       <div style={{ padding: "10%", textAlign: "center" }}>
+        <Heading title="Feel Free To Contact US" className="" />
+
         <HubspotForm
           portalId="8148391"
           formId="c2b2d22d-cc9b-46ec-83f4-37ed626686d2"
           onSubmit={() => console.log("Submit!")}
           onReady={(form) => console.log("Form ready!")}
-          loading={<div>Loading...</div>} 
+          loading={<div>Loading...</div>}
         />
       </div>
       {/* 
-       <Heading
-        title="Feel Free To Contact US"
-        //style={heading_style}
-        className=""
-      />
       <div className="container py-5 animated fadeIn">
         <div className="row" id="parent">
           <div className="col-md-6">
