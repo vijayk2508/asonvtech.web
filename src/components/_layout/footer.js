@@ -28,8 +28,9 @@ function Footer() {
                   <div>
                     <p>
                       <i className="fa fa-envelope  mx-2"></i>
-                      <a href="mailto:asonv.tech@gmail.com">
-                        asonv.tech@gmail.com
+                      <a href="mailto:service@asonvtech.com">
+                        {/* asonv.tech@gmail.com */}
+                        service@asonvtech.com
                       </a>
                     </p>
                   </div>
