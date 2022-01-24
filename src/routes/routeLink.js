@@ -1,7 +1,7 @@
 export const link = {
   HOME: "/",
   ABOUT: "/about",
-  BLOG : "/",
+  BLOG : "/blog",
   PRODUCTS: "/products",
   SERVICES: "/services",
   CONTACT: "/contact",
