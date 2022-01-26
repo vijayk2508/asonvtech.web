@@ -25,8 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "test:coverage": "cross-env CI=true npm test -- --env=jsdom --coverage",
-    "upload:test-report": "./node_modules/.bin/codecov",
+    "test:coverage": "cross-env CI=true npm test -- --env=jsdom --coverage"
   },
   "eslintConfig": {
     "extends": "react-app"
