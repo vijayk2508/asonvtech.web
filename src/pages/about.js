@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import Layout from '../components/_layout'
 import Heading from '../components/_common/heading'
@@ -37,7 +38,7 @@ function About() {
             media and remarketing, to increase your chances to build a new face for your firm.
           </p>
         </div>
-        <Team></Team>
+        {/* <Team></Team> */}
       </div>
     </Layout>
   )
