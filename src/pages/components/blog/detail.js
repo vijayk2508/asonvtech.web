@@ -3,8 +3,7 @@
 /* eslint-disable no-script-url */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect, useState } from 'react';
-import { useHistory } from 'react-router-dom';
-import { useParams } from 'react-router-dom';
+import { useHistory, useParams } from 'react-router-dom';
 import Layout from "../../../components/_layout";
 import { Blogdata } from '../../../constants/generaldata';
 import { link } from '../../../routes/routeLink';
