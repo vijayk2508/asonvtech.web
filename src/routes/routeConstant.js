@@ -30,7 +30,7 @@ const routeConstant = [
   },
   {
     name: 'BlogDetail',
-    visible: true,
+    visible: false,
     exact: true,
     path: `${link.BLOG}/:id`,
     accessibility: true,
