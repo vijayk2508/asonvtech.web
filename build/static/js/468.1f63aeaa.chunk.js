@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkasonv_tech=self.webpackChunkasonv_tech||[]).push([[468],{7468:function(a,e,t){t.r(e);t(2791);var n=t(184);e.default=function(){return(0,n.jsx)(n.Fragment,{children:(0,n.jsx)("button",{className:"navbar-toggler",type:"button","data-toggle":"collapse","data-target":"#navbarTogglerDemo03","aria-controls":"navbarTogglerDemo03","aria-expanded":"false","aria-label":"Toggle navigation",children:(0,n.jsx)("span",{style:{color:"white"},children:(0,n.jsx)("i",{className:"fas fa-bars"})})})})}}}]);
+//# sourceMappingURL=468.1f63aeaa.chunk.js.map
