@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkasonv_tech=self.webpackChunkasonv_tech||[]).push([[243],{7243:function(e,n,r){r.r(n);r(2791);var a=r(184);n.default=function(){return(0,a.jsx)(a.Fragment,{children:(0,a.jsx)("a",{className:"navbar-brand",href:"#",style:{border:"none",background:"none",color:"white",fontSize:"30",fontWeight:600},children:"ASONV TECH"})})}}}]);
+//# sourceMappingURL=243.d4b47da1.chunk.js.map
