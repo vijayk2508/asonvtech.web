@@ -60,7 +60,7 @@ const routeConstant = [
     path: link.CONTACT,
     exact: true,
     visible: false,
-    accessibility: true,
+    accessibility: false,
     routeComponentParent: "pages",
     routeComponentPath: "contactus",
   },
