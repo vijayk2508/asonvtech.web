@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import logo from "../../../../assets/images/logo-new.png";
 function Logo() {
   return (
     <>
@@ -22,6 +23,17 @@ function Logo() {
                 </label>
               </div>
             </a> */}
+
+            <img 
+            style={{
+              resizeMode: "contain",
+              height: 100,
+              
+              }}
+            src= {logo} 
+            alt= "logo" 
+            />
+            
       <a
         className="navbar-brand"
         href="#"
