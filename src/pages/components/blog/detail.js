@@ -136,7 +136,7 @@ function BlogDetail() {
                                 </div>
                             </div>
                         </div> */}
-              <div class="card">
+              {/* <div class="card">
                 <div class="header">
                   <h2>Categories Clouds</h2>
                 </div>
@@ -174,7 +174,7 @@ function BlogDetail() {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
               {/* <div class="card">
                             <div class="header">
                                 <h2>Popular Posts</h2>
