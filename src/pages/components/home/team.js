@@ -50,7 +50,7 @@ function Team() {
           <div className="row mb-4">
             <div className="col-md-12 text-center">
               <h2 className="display-4 font-weight-light ">Our Team</h2>
-              <p className="font-italic text-muted ">
+              <p className="text-muted ">
                 {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. */}
               </p>
             </div>

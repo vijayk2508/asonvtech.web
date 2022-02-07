@@ -8,8 +8,8 @@ function Banner(props) {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <p className="promo-title">Asonv Technology</p>
-              <p style={{ fontWeight: "bold" }}>Where Innovation Matters</p>
+              <h1 className="promo-title">Asonv Technology</h1>
+              {/* <p style={{ fontWeight: "bold" }}>Where Innovation Matters</p> */}
               <br></br>
               <p style={{ fontWeight: "bold" }}>
                 Energize your Business with customized Websites and
@@ -29,7 +29,7 @@ function Banner(props) {
               <img
                 id="img-intro"
                 className="rounded-lg"
-                src={require("../../../assets/svg/intro.svg")}
+                src={require("../../../assets/svg/intro.svg").default}
                 alt=""
               />
             </div>

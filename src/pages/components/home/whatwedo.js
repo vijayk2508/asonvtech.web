@@ -35,7 +35,7 @@ function WhatWeDo() {
   return (
     <section id="what-we-do">
       <div className="container-fluid">
-        <h2 className="section-title mb-2 h1">TECHNOLOGIES</h2>
+        <h1 className="section-title mb-2 h1">Technologies</h1>
         <div className="row mt-5">
           {technologiesList.map((eachtechnology, idx) => {
             return (
