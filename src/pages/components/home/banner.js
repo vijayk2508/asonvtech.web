@@ -9,7 +9,7 @@ function Banner(props) {
           <div className="row">
             <div className="col-md-6">
               <p className="promo-title">Asonv Technology</p>
-              <p style={{ fontWeight: "bold" }}>Where Innovation Matters</p>
+              {/* <p style={{ fontWeight: "bold" }}>Where Innovation Matters</p> */}
               <br></br>
               <p style={{ fontWeight: "bold" }}>
                 Energize your Business with customized Websites and
