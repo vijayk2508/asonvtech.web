@@ -31,7 +31,7 @@ function Heading(props) {
 Heading.defaultProps = {
   title: 'No Title',
   backgroundColor: '#f8f9fa !important',
-  padding: '30px 0px',
+  padding: '30px 0px 0px 0px',
   className: 'bg-light',
   style: {},
   heading_className: 'text-capitalize text-center',

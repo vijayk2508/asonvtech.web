@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 // import { dashboardReducer } from "./dashboard/dashboardReducer";
 // import { designComponentReducer } from "./designComponent/designComponentReducer";
 // import { dialogReducer } from "./dialog/dialogReducer";

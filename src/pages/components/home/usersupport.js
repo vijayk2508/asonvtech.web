@@ -7,9 +7,9 @@ function UserSupport() {
         <div className="container py-5">
           <div className="row align-items-center mb-5">
             <div className="col-lg-6 order-2 order-lg-1">
-              <i className="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
-              <h2 className="font-weight-light">User Support</h2>
-              <p className="font-italic text-muted mb-4">
+              {/* <i className="fa fa-bar-chart fa-2x mb-3 text-primary"></i> */}
+              <h1 className="font-weight-light">User Support</h1>
+              <p className="text-muted mb-4">
                 Our users can rely on us anytime they want. As we are creating a
                 perfect workplace where we will provide help to support their
                 websites and applications.
@@ -36,8 +36,8 @@ function UserSupport() {
             </div>
             <div className="col-lg-6">
               <i className="fa fa-leaf fa-2x mb-3 text-primary"></i>
-              <h2 className="font-weight-light">SEO & Digital Marketing</h2>
-              <p className="font-italic text-muted mb-4">
+              <h1 className="font-weight-light">SEO & Digital Marketing</h1>
+              <p className="text-muted mb-4">
                 Our team of SEO & Digital Marketing will help you grow your
                 Business so that they can rank better on Search Engines. And
                 also will make your websites SEO Friendly.

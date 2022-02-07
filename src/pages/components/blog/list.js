@@ -3,22 +3,17 @@ import { Blogdata } from "../../../constants/generaldata";
 import BlogCard from "./card";
 
 function BlogList() {
-  const [blogarray, setBlogArray] = useState([])
+  const [blogarray, setBlogArray] = useState([]);
 
   useEffect(() => {
-    setBlogArray(Blogdata)
-  }, [])
+    setBlogArray(Blogdata);
+  }, []);
 
   return (
     <div class="row">
-      {
-        blogarray.map((blog, key) => {
-          return <BlogCard
-            key={key}
-            {...blog} />
-        })
-      }
-
+      {blogarray.map((blog, key) => {
+        return <BlogCard key={key} {...blog} />;
+      })}
     </div>
   );
 }

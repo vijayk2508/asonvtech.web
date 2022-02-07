@@ -1,33 +1,45 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { useHistory } from "react-router-dom";
 import { link } from "../../../routes/routeLink";
 
 function BlogCard(props) {
   const { id, title, url, description } = props;
-  const history = useHistory()
+  const history = useHistory();
 
   function onHandleClick(e) {
-    e.preventDefault()
-    history.push(`${link.BLOG}/${id}`)
+    e.preventDefault();
+    history.push(`${link.BLOG}/${id}`);
   }
 
   return (
     <div class="col-lg-4 col-md-6 mb-2-6">
       <article class="card card-style2">
         <div class="card-img">
-          <img class="rounded-top" src={url} alt="..." />
+          <img
+            class="rounded-top"
+            style={{ width: "100%" }}
+            src={url}
+            alt="..."
+          />
           <div class="date">
             <span>15</span>Sep
           </div>
         </div>
         <div class="card-body">
-          <h3 class="h5">
+          <h3 class="h5" style={{ cursor: "pointer" }}>
             <a onClick={onHandleClick}>{title}</a>
           </h3>
-          <p class="display-30">{description}</p>
-          <a onClick={onHandleClick} class="read-more">
-            read more
-          </a>
+          <p
+            class="display-30"
+            style={{ textAlign: "justify", cursor: "pointer" }}
+          >
+            {description.substring(0, 100)}
+            {"..."}
+            <a onClick={onHandleClick} class="read-more">
+              read more
+            </a>
+          </p>
         </div>
         <div class="card-footer">
           <ul>
