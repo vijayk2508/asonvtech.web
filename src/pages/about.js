@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../components/_layout'
 import Heading from '../components/_common/heading'
-import Team from './components/home/team'
 
 function About() {
   return (

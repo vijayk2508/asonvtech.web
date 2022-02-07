@@ -1,51 +1,61 @@
-import React, { useEffect, useState } from 'react';
-import { useHistory, useParams } from 'react-router-dom';
+/* eslint-disable no-script-url */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React, { useEffect, useState } from "react";
+import { useHistory, useParams } from "react-router-dom";
 import Layout from "../../../components/_layout";
-import { Blogdata } from '../../../constants/generaldata';
-import { link } from '../../../routes/routeLink';
+import { Blogdata } from "../../../constants/generaldata";
+import { link } from "../../../routes/routeLink";
 function BlogDetail() {
-    const params = useParams()
-    const [data, setData] = useState({
-        id: -1,
-        title: "",
-        url: "",
-        description: ""
-    })
+  const params = useParams();
+  const [data, setData] = useState({
+    id: -1,
+    title: "",
+    url: "",
+    description: "",
+  });
 
-    const history = useHistory()
+  const history = useHistory();
 
-    useEffect(() => {
-        let redirectStatus = true
-        if (params?.id) {
-            const blogDataById = Blogdata.find(blog => blog.id === parseInt(params?.id))
-            if (blogDataById) {
-                setData(blogDataById)
-                redirectStatus = false
-            }
-        }
+  useEffect(() => {
+    let redirectStatus = true;
+    if (params?.id) {
+      const blogDataById = Blogdata.find(
+        (blog) => blog.id === parseInt(params?.id)
+      );
+      if (blogDataById) {
+        setData(blogDataById);
+        redirectStatus = false;
+      }
+    }
 
-        if (redirectStatus) {
-            history.push(link.BLOG)
-        }
+    if (redirectStatus) {
+      history.push(link.BLOG);
+    }
+  }, [history, params?.id]);
+  const { title, url, description } = data;
 
-    }, [params?.id])
-    const { id, title, url, description } = data
-
-    return <Layout>
-        <div id="main-content" class="blog-page">
-            <div class="container">
-                <div class="row clearfix">
-                    <div class="col-lg-8 col-md-12 left-box">
-                        <div class="card single_post">
-                            <div class="body">
-                                <div class="img-post">
-                                    <img class="d-block img-fluid" src={url} alt="First slide" />
-                                </div>
-                                <h3><a href="blog-details.html">{title}</a></h3>
-                                <p>{description}</p>
-                            </div>
-                        </div>
-                        {/* <div class="card">
+  return (
+    <Layout>
+      <div id="main-content" class="blog-page">
+        <div class="container">
+          <div class="row clearfix">
+            <div class="col-lg-8 col-md-12 left-box">
+              <div class="card single_post">
+                <div class="body">
+                  <div class="img-post">
+                    <img
+                      class="d-block img-fluid"
+                      src={url}
+                      alt="First slide"
+                    />
+                  </div>
+                  <h3>
+                    <a href="blog-details.html">{title}</a>
+                  </h3>
+                  <p>{description}</p>
+                </div>
+              </div>
+              {/* <div class="card">
                             <div class="header">
                                 <h2>Comments 3</h2>
                             </div>
@@ -114,9 +124,9 @@ function BlogDetail() {
                                 </div>
                             </div>
                         </div> */}
-                    </div>
-                    <div class="col-lg-4 col-md-12 right-box">
-                        {/* <div class="card">
+            </div>
+            <div class="col-lg-4 col-md-12 right-box">
+              {/* <div class="card">
                             <div class="body search">
                                 <div class="input-group m-b-0">
                                     <div class="input-group-prepend">
@@ -126,26 +136,46 @@ function BlogDetail() {
                                 </div>
                             </div>
                         </div> */}
-                        <div class="card">
-                            <div class="header">
-                                <h2>Categories Clouds</h2>
-                            </div>
-                            <div class="body widget">
-                                <ul class="list-unstyled categories-clouds m-b-0">
-                                    <li><a href="javascript:void(0);">eCommerce</a></li>
-                                    <li><a href="javascript:void(0);">Microsoft Technologies</a></li>
-                                    <li><a href="javascript:void(0);">Creative UX</a></li>
-                                    <li><a href="javascript:void(0);">Wordpress</a></li>
-                                    <li><a href="javascript:void(0);">Angular JS</a></li>
-                                    <li><a href="javascript:void(0);">Enterprise Mobility</a></li>
-                                    <li><a href="javascript:void(0);">Website Design</a></li>
-                                    <li><a href="javascript:void(0);">HTML5</a></li>
-                                    <li><a href="javascript:void(0);">Infographics</a></li>
-                                    <li><a href="javascript:void(0);">Wordpress Development</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        {/* <div class="card">
+              <div class="card">
+                <div class="header">
+                  <h2>Categories Clouds</h2>
+                </div>
+                <div class="body widget">
+                  <ul class="list-unstyled categories-clouds m-b-0">
+                    <li>
+                      <a href="javascript:void(0);">eCommerce</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Microsoft Technologies</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Creative UX</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Wordpress</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Angular JS</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Enterprise Mobility</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Website Design</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">HTML5</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Infographics</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Wordpress Development</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              {/* <div class="card">
                             <div class="header">
                                 <h2>Popular Posts</h2>
                             </div>
@@ -201,12 +231,12 @@ function BlogDetail() {
                                 </div>
                             </div>
                         </div> */}
-                    </div>
-                </div>
-
             </div>
+          </div>
         </div>
+      </div>
     </Layout>
+  );
 }
 
 export default BlogDetail;
