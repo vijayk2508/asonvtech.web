@@ -29,7 +29,7 @@ function Banner(props) {
               <img
                 id="img-intro"
                 className="rounded-lg"
-                src={require("../../../assets/svg/intro.svg").default}
+                src={require("../../../assets/svg/intro.svg")}
                 alt=""
               />
             </div>

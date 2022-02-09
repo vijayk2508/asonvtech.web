@@ -20,11 +20,11 @@ function Footer() {
                     </p>
                   </div> */}
 
-                  <div>
+                  {/* <div>
                     <p>
                       <i className="fa fa-phone  mx-2 "></i> +91 7983868472
                     </p>
-                  </div>
+                  </div> */}
                   <div>
                     <p>
                       <i className="fa fa-envelope  mx-2"></i>
