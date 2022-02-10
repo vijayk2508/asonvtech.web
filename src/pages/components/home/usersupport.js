@@ -35,7 +35,7 @@ function UserSupport() {
               />
             </div>
             <div className="col-lg-6">
-              <i className="fa fa-leaf fa-2x mb-3 text-primary"></i>
+              {/* <i className="fa fa-leaf fa-2x mb-3 text-primary"></i> */}
               <h1 className="font-weight-light">SEO & Digital Marketing</h1>
               <p className="text-muted mb-4">
                 Our team of SEO & Digital Marketing will help you grow your

@@ -52,7 +52,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div class="row" style={{justifyContent: "center"}}>
+          <div class="row" style={{ justifyContent: "center" }}>
             <div class="col-md-6 col-lg-3 margin-b-30">
               <div class="feature-box-center text-center">
                 <i class="fas fa-globe"></i>
